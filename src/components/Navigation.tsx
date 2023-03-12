@@ -12,8 +12,8 @@ import {
 } from "@heroicons/react/24/outline";
 function Navigation() {
   return (
-    <div>
-      <div>
+    <div className="h-screen flex flex-col">
+      <div className="py-3 px-6">
         <Image
           src="https://1000logos.net/wp-content/uploads/2017/02/Logo-Instagram.png"
           width={100}
@@ -21,41 +21,41 @@ function Navigation() {
           alt="Instagram logo"
         />
       </div>
-      <div>
-        <div>
+      <div className="mt-20">
+        <div className="icons">
           <HomeIcon className="w-6" />
-          Home
+          <p className="ml-4">Home</p>
         </div>
-        <div>
+        <div className="icons">
           <MagnifyingGlassIcon className="w-6" />
-          Search
+          <p className="ml-4"> Search</p>
         </div>
-        <div>
+        <div className="icons">
           <GlobeEuropeAfricaIcon className="w-6" />
-          Explore
+          <p className="ml-4"> Explore</p>
         </div>
-        <div>
+        <div className="icons">
           <VideoCameraIcon className="w-6" />
-          Reels
+          <p className="ml-4"> Reels</p>
         </div>
-        <div>
+        <div className="icons">
           <ChatBubbleOvalLeftEllipsisIcon className="w-6" />
-          Messages
+          <p className="ml-4"> Messages</p>
         </div>
-        <div>
+        <div className="icons">
           <HeartIcon className="w-6" />
-          Notifications
+          <p className="ml-4"> Notifications</p>
         </div>
-        <div>
+        <div className="icons">
           <PlusCircleIcon className="w-6" />
-          Plus circle
+          <p className="ml-4">Create</p>
         </div>
-        <div>
+        <div className="icons">
           <UserCircleIcon className="w-6" />
-          Profile
+          <p className="ml-4">Profile</p>
         </div>
       </div>
-      <div>
+      <div className="mt-auto w-full icons">
         <EllipsisVerticalIcon className="w-6" />
         More
       </div>

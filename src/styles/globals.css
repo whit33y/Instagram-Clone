@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .icons {
+    @apply cursor-pointer hover:underline flex flex-row py-3 px-6;
+  }
+}
