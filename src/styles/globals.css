@@ -9,4 +9,7 @@
   .footerLink {
     @apply cursor-pointer hover:underline text-xs px-1;
   }
+  .input {
+    @apply border border-gray-400 bg-gray-100 placeholder:text-xs py-1 px-1 my-1;
+  }
 }
