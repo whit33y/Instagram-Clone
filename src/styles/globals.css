@@ -6,4 +6,7 @@
   .icons {
     @apply cursor-pointer hover:underline flex flex-row py-3 px-6;
   }
+  .footerLink {
+    @apply cursor-pointer hover:underline text-xs px-1;
+  }
 }
