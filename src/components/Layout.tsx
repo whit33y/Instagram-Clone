@@ -4,12 +4,7 @@ interface LayoutProps {
 }
 
 function Layout({ children }: LayoutProps) {
-  return (
-    <div className="flex">
-      <Navigation />
-      {children}
-    </div>
-  );
+  return <div className="flex">{children}</div>;
 }
 
 export default Layout;
